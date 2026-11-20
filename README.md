@@ -1,18 +1,8 @@
-# Floran Lab v2
+# Floran Lab V3
 
-纯前端网页游戏原型。核心循环：培育 → 收集 → 编队 → 塔防 → 净化 → 解锁植物。
+V3 重点重构：
+- 三阶段育种：母本决定谱系，供体决定遗传，环境选择塑造性格与变异概率。
+- 即时轻塔防：4 路战场、芽能资源、战斗中部署、角色定位与敌人阻挡。
+- 高品质像素花人：六个统一风格角色，个体带遗传特性与培育性格。
 
-## 本地桌面测试
-直接打开 `index.html` 可以运行；部分手机系统的“文件预览”不会完整执行 JavaScript，因此手机请通过 HTTP/HTTPS 地址访问。
-
-## 最简单的本地服务器
-在目录中运行：
-
-```bash
-python3 -m http.server 8080
-```
-
-然后浏览器访问 `http://localhost:8080`。
-
-## 部署
-整个目录可直接部署到 GitHub Pages / Netlify / Vercel / Cloudflare Pages 等静态托管。
+部署到 GitHub Pages：将本目录内 `index.html` 与 `assets/` 直接上传到仓库根目录即可。
